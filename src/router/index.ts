@@ -52,4 +52,8 @@ router.post('/fetch-xml', async (req, res) => {
     }
 })
 
+router.get('/api', (_, res) => {
+    res.send('Welcome artemis OPML tool!')
+})
+
 export default router
